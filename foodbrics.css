@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.blog-post {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-content {
+    margin-top: 20px;
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.social-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* Add your additional CSS styles here */
+.comment-section {
+    margin-top: 10px;
+}
+
+.comment {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.liked {
+    background-color: #3498db;
+    color: #fff;
+}
+/* Set a fixed width for the buttons */
+        .social-buttons button {
+            width: 80px;
+        }
+
+        /* Ensure box-sizing includes padding and borders */
+        .social-buttons button {
+            box-sizing: border-box;
+        }
+
+        .share-button {
+            
+            color: black;
+        }
+        #commentsSection {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        #commentsSection h3 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        
+        #commentsList {
+            list-style: none;
+            padding: 0;
+        }
+        
+        #commentsList li {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        #commentForm {
+            margin-top: 20px;
+        }
+        
+        #commentInput {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        
+
+
